@@ -1,14 +1,20 @@
 ---
-title: "frederiklange.github.io"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Frederik Lange"
+about:
+  template: jolla
+  image: "images/profile_picture.jpg"
+  image-width: 25em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/niels-frederik-lange/
+    - icon: github
+      text: Github
+      href: https://github.com/frederiklange
+    - icon: envelope
+      text: Contact me
+      href: mailto:frederik.lange@hotmail.com
+
 ---
 
-
+Welcome to Frederik Lange's homepage. I am a data scientist with a background in political science. I have previously worked at the Danish Ministry of Finance. From September 2024, I will be pursuing my passion for data science by enrolling in a master's degree program at the University of Southern Denmark.

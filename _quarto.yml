@@ -3,18 +3,34 @@ project:
   output-dir: docs
 
 website:
-  title: "frederiklange.github.io"
+  title: "Frederik Lange"
+  page-navigation: true
+  favicon: "images/logo_frederik.jpg"
+
   navbar:
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+    background: "white"
+    foreground: dark
+    align: center
+    search: true
+    pinned: true
+    logo: "images/logo_frederik.jpg"
+
+    left:
+      - text: "Intro"
+        href: about.qmd
+      - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "Resume"
+        href: resume.qmd
+    
+  page-footer:
+    center: This page is built with [Quarto](https://quarto.org/).
+ 
 format:
   html:
     theme: minty
+    toc: true
     css: styles.css
-
-
-
+    code-link: true
+    code-fold: show
+    highlight-style: dracula

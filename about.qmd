@@ -1,19 +1,15 @@
 ---
-title: "About"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
-
+title: "Political scientist turned data scientist"
 ---
 
-About this blog
+I am a political scientist with specialization in political behavior and advanced quantitative methods. Throughout my studies, I developed a keen interest in data science, particularly focusing on machine learning and natural language processing. Over the past three years, I have been employed at the Danish Ministry of Finance, where I have been responsible for preparing decision-making papers and analyses for the government on complex policy issues. However, starting September 2024, I will be pursuing my passion for data science by enrolling in a master's degree program to further enhance my skills in the field.
+
+## My Data Science Journey {.unnumbered}
+
+I started on my data science journey during my master's degree in political science, where I enrolled in an introductory course in social data science. This course introduced me to Python and sparked my interest in data science. From there on, I pursued additional courses related to data science. This included the course "Machine Learning in Conflict Prediction", where I learned how modern computational methods from the field of machine learning can contribute to forecasting and predicting future conflicts. You can find more about this course in the github [repository](https://github.com/Polichinel/exercises_MLCP).
+
+Furthermore, I pursued a specialization in political behavior and advanced quantitative methods, where I developed my skills in conducting causal research through various methods such as experiments, instrumental variables, and differences-in-differences using the statistical software R. For more details, you can visit the course [webpage](https://gregoryeady.com/ResearchMethodsCourse/), and see my [assignment](https://gregoryeady.com/ResearchMethodsCourse/assets/assignment/Replication_of_Gerber_and_Hopkins.pdf) here.
+
+I applied these acquired skills in my thesis, where I investigated polarization in parliamentary speeches and legislative votes. I employed a machine learning-based measure of linguistic polarization among Danish politicians, working with unstructured data and large datasets comprising 0.5 million speeches. I also gained experience utilising Google Cloud Platform to run my machine learning models.
+
+Looking ahead, I have enrolled in a master's degree program in data science starting September 2024. I am looking very much forward to learn tons of new things within the field of data science.
