@@ -15,7 +15,7 @@ website:
     pinned: true
     logo: "images/logo_frederik.jpg"
 
-    left:
+    right:
       - text: "Intro"
         href: about.qmd
       - text: "Portfolio"
