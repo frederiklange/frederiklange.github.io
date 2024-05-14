@@ -1,0 +1,18 @@
+---
+title: "Elite Polarization in Parliamentary Speeches and Legislative Voting"
+author: "Frederik Lange"
+date: "2024-05-20"
+categories: [code, machine learning, analysis, political science]
+image: "polarization_thumbnail.png"
+---
+
+In 2021 I wrote my master's thesis in Political Science. In the thesis, I explored how elite polarization in parliamentary speeches has evolved over the pas decades by conducting a descriptive case study of parliamentary speeches in the Danish Parliament (Folketinget) from 1990 to 2020. To measure elite polarization, I relied on a novel approach that utilized the performance indicator of a supervised machine learning model to measure differences in political speech. In the sections below, I have summarized some of the findings of my thesis and my key learnings. Feel free to explore the summary or take a look at the complete [thesis](https://github.com/frederiklange/thesis_political_science/blob/main/niels_frederik_lange_speciale_september_2021.pdf) (the thesis is written in Danish).
+
+## Header
+
+## Header
+
+## Header
+
+## Key Learnings and Reflections
+

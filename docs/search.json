@@ -18,14 +18,14 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nMay 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nMay 10, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Elite Polarization in Parliamentary Speeches and Legislative Voting\n\n\n\ncode\n\n\nmachine learning\n\n\nanalysis\n\n\npolitical science\n\n\n\n\n\n\n\nFrederik Lange\n\n\nMay 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning and Conflict Prediction\n\n\n\ncode\n\n\nanalysis\n\n\nmachine learning\n\n\n\n\n\n\n\nFrederik Lange\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "Machine Learning and Conflict Prediction",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post about my project for an exam in the course Machine Learning and Conflict Prediction."
   },
   {
     "objectID": "about.html",
@@ -40,5 +40,103 @@
     "title": "Political scientist turned data scientist",
     "section": "My Data Science Journey",
     "text": "My Data Science Journey\nI started on my data science journey during my master’s degree in political science, where I enrolled in an introductory course in social data science. This course introduced me to Python and sparked my interest in data science. From there on, I pursued additional courses related to data science. This included the course “Machine Learning in Conflict Prediction”, where I learned how modern computational methods from the field of machine learning can contribute to forecasting and predicting future conflicts. You can find more about this course in the github repository.\nFurthermore, I pursued a specialization in political behavior and advanced quantitative methods, where I developed my skills in conducting causal research through various methods such as experiments, instrumental variables, and differences-in-differences using the statistical software R. For more details, you can visit the course webpage, and see my assignment here.\nI applied these acquired skills in my thesis, where I investigated polarization in parliamentary speeches and legislative votes. I employed a machine learning-based measure of linguistic polarization among Danish politicians, working with unstructured data and large datasets comprising 0.5 million speeches. I also gained experience utilising Google Cloud Platform to run my machine learning models.\nLooking ahead, I have enrolled in a master’s degree program in data science starting September 2024. I am looking very much forward to learn tons of new things within the field of data science."
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html",
+    "href": "posts/exam_mlcp/index.html",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "",
+    "text": "During my master’s degree in political science I took a course called Machine Learning and Conflict Prediction. In the course we explored how modern computational methods from the field of machine learning can aid us in forecasting and predicting future conflicts. The course gave me a solid foundation in machine learning, working with geographical data, and the theory behind conflict predition. In the sections below, I have written a brief summary of my final exam for the course. Feel free to explore the summary or take a look at the notebook that I handed in for the exam."
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#overview-of-the-exam-project",
+    "href": "posts/exam_mlcp/index.html#overview-of-the-exam-project",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Overview of the Exam Project",
+    "text": "Overview of the Exam Project\nText.\n\nList of things we did during the exam\n..\n..\n.."
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#finding-the-best-model-for-conflict-prediction",
+    "href": "posts/exam_mlcp/index.html#finding-the-best-model-for-conflict-prediction",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Finding the Best Model for conflict prediction",
+    "text": "Finding the Best Model for conflict prediction\nDescription of process leading up to this.\n\nSelecting a Subset of Features That Do Not Lower Performance\nArguments for selecting features. Process techically and theoretically-\n\n\nHyperparameter Strategy: A Hands-on Grid-Search\nDescription of the process and strategy. Show example plots and refor to github page.\n\n\nTraining and Tuning the Model\nDescription of process and show plots. Talk about the main metrics and strengths and weaknesses.\n\n\nEvaluating the Models After the Grid-Search\nTalk about the grid-search. Why do two? Consider showing the code.\n\n\nTesting the Performance of the Selected Model\nTalk about the role of testing and summarize findings."
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#key-learnings-and-reflection",
+    "href": "posts/exam_mlcp/index.html#key-learnings-and-reflection",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Key Learnings and Reflection",
+    "text": "Key Learnings and Reflection\nReflect on key learnings. Technical and theretical."
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#selecting-a-subset-of-features-that-do-not-lower-performance",
+    "href": "posts/exam_mlcp/index.html#selecting-a-subset-of-features-that-do-not-lower-performance",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Selecting a Subset of Features That Do Not Lower Performance",
+    "text": "Selecting a Subset of Features That Do Not Lower Performance"
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#hyperparameter-strategy-a-hands-on-grid-search",
+    "href": "posts/exam_mlcp/index.html#hyperparameter-strategy-a-hands-on-grid-search",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Hyperparameter Strategy: A Hands-on Grid-Search",
+    "text": "Hyperparameter Strategy: A Hands-on Grid-Search"
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#training-and-tuning-the-model",
+    "href": "posts/exam_mlcp/index.html#training-and-tuning-the-model",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Training and Tuning the Model",
+    "text": "Training and Tuning the Model"
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#evaluating-the-models-after-the-grid-search",
+    "href": "posts/exam_mlcp/index.html#evaluating-the-models-after-the-grid-search",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Evaluating the Models After the Grid-Search",
+    "text": "Evaluating the Models After the Grid-Search"
+  },
+  {
+    "objectID": "posts/exam_mlcp/index.html#testing-the-performance-of-the-selected-model",
+    "href": "posts/exam_mlcp/index.html#testing-the-performance-of-the-selected-model",
+    "title": "Machine Learning and Conflict Prediction",
+    "section": "Testing the Performance of the Selected Model",
+    "text": "Testing the Performance of the Selected Model"
+  },
+  {
+    "objectID": "posts/masters_thesis/index.html",
+    "href": "posts/masters_thesis/index.html",
+    "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
+    "section": "",
+    "text": "In 2021 I wrote my master’s thesis in Political Science. In the thesis, I explored how elite polarization in parliamentary speeches has evolved over the pas decades by conducting a descriptive case study of parliamentary speeches in the Danish Parliament (Folketinget) from 1990 to 2020. To measure elite polarization, I relied on a novel approach that utilized the performance indicator of a supervised machine learning model to measure differences in political speech. In the sections below, I have summarized some of the findings of my thesis and my key learnings. Feel free to explore the summary or take a look at the complete thesis (the thesis is in Danish)."
+  },
+  {
+    "objectID": "posts/masters_thesis/index.html#header",
+    "href": "posts/masters_thesis/index.html#header",
+    "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
+    "section": "Header",
+    "text": "Header"
+  },
+  {
+    "objectID": "posts/masters_thesis/index.html#header-1",
+    "href": "posts/masters_thesis/index.html#header-1",
+    "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
+    "section": "Header",
+    "text": "Header"
+  },
+  {
+    "objectID": "posts/masters_thesis/index.html#header-2",
+    "href": "posts/masters_thesis/index.html#header-2",
+    "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
+    "section": "Header",
+    "text": "Header"
+  },
+  {
+    "objectID": "posts/masters_thesis/index.html#key-learnings-and-reflections",
+    "href": "posts/masters_thesis/index.html#key-learnings-and-reflections",
+    "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
+    "section": "Key Learnings and Reflections",
+    "text": "Key Learnings and Reflections"
   }
 ]
