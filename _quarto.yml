@@ -24,7 +24,14 @@ website:
         href: resume.qmd
     
   page-footer:
-    center: This page is built with [Quarto](https://quarto.org/).
+    left: This page is built with [Quarto](https://quarto.org/).
+    center:
+      - href: https://github.com/frederiklange
+        icon: github
+      - href: https://www.linkedin.com/in/niels-frederik-lange/
+        icon: linkedin
+      - href: mailto:frederik.lange@hotmail.com
+        icon: envelope
  
 format:
   html:
