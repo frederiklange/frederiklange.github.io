@@ -53,7 +53,7 @@
     "href": "posts/masters_thesis/index.html#git-commit-røvhuller",
     "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
     "section": "git commit røvhuller",
-    "text": "git commit røvhuller"
+    "text": "git commit røvhuller\n´´´ {python} #| label: fig-polar #| fig-cap: “A line plot on a polar axis”\nimport numpy as np import matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01) theta = 2 * np.pi * r fig, ax = plt.subplots( subplot_kw = {‘projection’: ‘polar’} ) ax.plot(theta, r) ax.set_rticks([0.5, 1, 1.5, 2]) ax.grid(True) plt.show() ´´´"
   },
   {
     "objectID": "posts/masters_thesis/index.html#header",
