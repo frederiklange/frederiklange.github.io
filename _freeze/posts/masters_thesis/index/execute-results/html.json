@@ -1,0 +1,12 @@
+{
+  "hash": "a2bbfdadcf098d1e06590ac875d0959e",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Elite Polarization in Parliamentary Speeches and Legislative Voting\"\nauthor: \"Frederik Lange\"\ndate: \"2024-05-20\"\ncategories: [code, machine learning, analysis, political science]\nimage: \"polarization_thumbnail.png\"\n---\n\nIn 2021 I wrote my master's thesis in Political Science. In the thesis, I explored how elite polarization in parliamentary speeches has evolved over the pas decades by conducting a descriptive case study of parliamentary speeches in the Danish Parliament (Folketinget) from 1990 to 2020. To measure elite polarization, I relied on a novel approach that utilized the performance indicator of a supervised machine learning model to measure differences in political speech. In the sections below, I have summarized some of the findings of my thesis and my key learnings. Feel free to explore the summary or take a look at the complete [thesis](https://github.com/frederiklange/thesis_political_science/blob/main/niels_frederik_lange_speciale_september_2021.pdf) (the thesis is written in Danish).\n\n## git commit røvhuller\n\n::: {#cell-fig-polar .cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![A line plot on a polar axis](index_files/figure-html/fig-polar-output-1.png){#fig-polar width=450 height=439}\n:::\n:::\n\n\n## Header\n\n## Header\n\n## Key Learnings and Reflections\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
