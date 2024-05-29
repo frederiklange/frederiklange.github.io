@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Elite Polarization in Parliamentary Speeches and Legislative Voting\n\n\n\ncode\n\n\nmachine learning\n\n\nanalysis\n\n\npolitical science\n\n\n\n\n\n\n\nFrederik Lange\n\n\nMay 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning and Conflict Prediction\n\n\n\ncode\n\n\nanalysis\n\n\nmachine learning\n\n\n\n\n\n\n\nFrederik Lange\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Frederik Lange",
@@ -35,18 +42,18 @@
     "text": "Key Learnings and Reflections\nReflect on key learnings. Technical and theretical."
   },
   {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Elite Polarization in Parliamentary Speeches and Legislative Voting\n\n\n\ncode\n\n\nmachine learning\n\n\nanalysis\n\n\npolitical science\n\n\n\n\n\n\n\nFrederik Lange\n\n\nMay 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning and Conflict Prediction\n\n\n\ncode\n\n\nanalysis\n\n\nmachine learning\n\n\n\n\n\n\n\nFrederik Lange\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/masters_thesis/index.html",
     "href": "posts/masters_thesis/index.html",
     "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
     "section": "",
     "text": "In 2021 I wrote my master’s thesis in Political Science. In the thesis, I explored how elite polarization in parliamentary speeches has evolved over the pas decades by conducting a descriptive case study of parliamentary speeches in the Danish Parliament (Folketinget) from 1990 to 2020. To measure elite polarization, I relied on a novel approach that utilized the performance indicator of a supervised machine learning model to measure differences in political speech. In the sections below, I have summarized some of the findings of my thesis and my key learnings. Feel free to explore the summary or take a look at the complete thesis (the thesis is written in Danish)."
+  },
+  {
+    "objectID": "posts/masters_thesis/index.html#git-commit-røvhuller",
+    "href": "posts/masters_thesis/index.html#git-commit-røvhuller",
+    "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
+    "section": "git commit røvhuller",
+    "text": "git commit røvhuller"
   },
   {
     "objectID": "posts/masters_thesis/index.html#header",
@@ -58,13 +65,6 @@
   {
     "objectID": "posts/masters_thesis/index.html#header-1",
     "href": "posts/masters_thesis/index.html#header-1",
-    "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
-    "section": "Header",
-    "text": "Header"
-  },
-  {
-    "objectID": "posts/masters_thesis/index.html#header-2",
-    "href": "posts/masters_thesis/index.html#header-2",
     "title": "Elite Polarization in Parliamentary Speeches and Legislative Voting",
     "section": "Header",
     "text": "Header"
