@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Variables */
+:root {
+  --font-family1: "Roboto", sans-serif;
+  --font-family2: "Roboto Mono", sans-serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #1e1e2e;
+  --bg-color-2: #313244;
+  --primary-color: #cba6f7;
+  --secondary-color: #cdd6f4;
+  --third-color: #a6adc8;
+  --fourth-color: #b4befe;
+  --transition: 0.3s;
+  --navbar-height: 80px; /* Adjust this value to the height of your navbar */
+  --scroll-padding-top: 80px; /* Default value, will be overridden by JS */
+}
+
+/* Generel settings*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding-top); /* Set the scroll padding top */
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 32px;
+  font-family: var(--font-family2);
+  color: var(--primary-color);
+  font-weight: var(--bold-font);
+}
+
+section h1 {
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 70px;
+  font-family: var(--font-family1);
+  font-weight: var(--bold-font);
+  color: var(--fourth-color);
+}
+
+h3 {
+  font-size: 60px;
+  line-height: 70px;
+  font-family: var(--font-family1);
+  font-weight: var(--bold-font);
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 1em;
+  font-family: var(--font-family1);
+  color: var(--secondary-color);
+}
+
+a {
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Header */
+.header-main {
+  width: 100%;
+  height: 80px;
+  top: 0;
+  position: fixed;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 99;
+}
+
+.header-main-logo {
+  margin-right: auto;
+  padding-left: 60px;
+  height: 100%;
+}
+
+.header-main-logo h1 a {
+  line-height: 80px;
+  font-size: 14px;
+  font-family: var(--font-family2);
+  font-weight: 500;
+}
+
+.header-main-nav {
+  width: fit-content;
+  height: 100%;
+}
+
+.header-main-nav ul {
+  color: var(--primary-color);
+}
+
+.header-main-nav ul li {
+  display: inline;
+}
+
+.header-main-nav ul a {
+  padding: 0 15px;
+  font-family: var(--font-family2);
+  font-size: 13px;
+  line-height: 80px;
+}
+
+.header-main-btn {
+  width: fit-content;
+  height: 100%;
+  padding-right: 60px;
+}
+
+.header-main-btn a {
+  line-height: 80px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  font-family: var(--font-family2);
+  font-size: 13px;
+}
+
+.header-main-btn a:hover {
+  line-height: 80px;
+  margin-left: 8px;
+  padding: 10px 20px;
+  border-bottom: 4px solid var(--primary-color);
+  border-right: 4px solid var(--primary-color);
+  border-radius: 8px;
+  font-family: var(--font-family2);
+  transition: 0.1s;
+}
+
+/* Hero section */
+main {
+  width: 70%;
+  height: calc(100vh - 60px);
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main p {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+/* About section */
+.about {
+  width: 70%;
+  margin: auto;
+}
+
+.about-container {
+  margin-bottom: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 60px;
+}
+
+.about-text {
+  flex-basis: 700px;
+}
+
+.about-skills {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 1em;
+  font-family: var(--font-family1);
+  color: var(--secondary-color); 
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding-left: 10px;
+}
+
+.about-skills li {
+  position: relative;
+  padding-left: 25px;
+  font-family: var(--font-family2);
+}
+
+.about-skills li::before {
+  content: "\25BA \0020";
+  font-size: 8px;
+  color: var(--primary-color);
+  position: absolute;
+  left: -10px;
+}
+
+.about-image {
+  position: relative;
+  width: 300px; /* same width as the image */
+  height: 400px; /* set a height or adjust according to the aspect ratio of your image */
+  border-radius: 10px;
+  overflow: hidden; /* to ensure the overlay is confined within the border radius */
+  margin-top: 28px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures the image covers the entire container */
+  border-radius: 10px;
+}
+
+.about-image:hover {
+  transform: translate(-10px, -10px ); /* Adjust values for the diagonal movement */
+  transition: 0.5s;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color); /* black tint with 50% opacity */
+  opacity: 40%;
+  border-radius: 10px;
+  pointer-events: none; /* allows clicking through the overlay */
+}
+
+.about-image:hover .image-overlay {
+  opacity: 0; /* hide the overlay on hover */
+}
+
+/* Portfolio section */
+.portfolio {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 160px;
+}
+
+.portfolio-container {
+  margin-bottom: 100px;
+}
+
+.portfolio-container h1 {
+  text-align: center;
+  color: var(--fourth-color);
+  font-size: 16px;
+}
+
+.portfolio-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-card p {
+  border: 2px solid var(--bg-color-2);
+  background-color: var(--bg-color-2);
+  opacity: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: -100px;
+  max-width: 50%;
+  z-index: 1;
+}
+
+.portfolio-card.reverse p {
+  border: 2px solid var(--bg-color-2);
+  background-color: var(--bg-color-2);
+  opacity: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 0px;
+  margin-right: -100px;
+  max-width: 50%;
+  z-index: 1;
+}
+
+.portfolio-image-wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.portfolio-image-overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  opacity: 65%;
+  border-radius: 10px;
+  z-index: 1;
+  transition: opacity 0.5s;
+}
+
+.portfolio-image-wrapper:hover .portfolio-image-overlay {
+  opacity: 0; /* Fade out the tint on hover */
+  cursor: pointer;
+}
+
+/* Contact section */
+.contact {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 160px;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container h2 {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.contact-container p {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  width: 100%;
+  text-align: center; /* Center the text inside the paragraph */
+}
+
+.contact-btn {
+  padding: 10px;
+  margin-top: 20px; /* Add some margin if needed to space out the button */
+}
+
+.contact-btn a {
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  font-family: var(--font-family2);
+  font-size: 12px;
+  text-align: center; /* Ensure the text inside the button is centered */
+}
+
+.contact-btn a:hover {
+  padding: 10px 20px; /* Same padding as the default state */
+  border-bottom: 4px solid var(--primary-color);
+  border-right: 4px solid var(--primary-color);
+  border-radius: 8px;
+  font-family: var(--font-family2);
+  font-size: 12px;
+  transition: 0.1s;
+}
+
+/* Footer section */
+.footer {
+  padding: 20px 0; /* Padding for the footer */
+  text-align: center; /* Center the content inside the footer */
+  color: var(--secondary-color); /* Text color for the footer */
+  position: relative;
+}
+
+.footer p {
+  font-family: var(--font-family2);
+  font-size: 12px;
+}
+
+.footer a {
+  font-family: var(--font-family2);
+  font-size: 12px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  gap: 25px; /* Space between the icons */
+}
+
+.footer-icons a {
+  color: var(--primary-color); /* Default color for the icons */
+  font-size: 20px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+.footer-icons a:hover {
+  color: var(--secondary-color); /* Color for LinkedIn icon on hover */
+  transform: translateY(-5px); /* Move the icon 5px upwards */
+}

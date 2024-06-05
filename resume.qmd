@@ -1,5 +1,0 @@
-<iframe
-  width="800"
-  height="800"
-  src="images/cv_frederik_lange.pdf">
-</iframe>
