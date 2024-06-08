@@ -29,38 +29,27 @@ body {
   background-color: var(--bg-color);
 }
 
-h1 {
+h2 {
   font-size: 28px;
   line-height: 32px;
   font-family: var(--font-family2);
   color: var(--primary-color);
   font-weight: var(--bold-font);
-}
-
-section h1 {
   padding-bottom: 30px;
 }
 
-h2 {
-  font-size: 60px;
-  line-height: 70px;
-  font-family: var(--font-family1);
-  font-weight: var(--bold-font);
-  color: var(--fourth-color);
-}
-
 h3 {
-  font-size: 60px;
-  line-height: 70px;
+  text-align: center;
+  color: var(--fourth-color);
+  font-size: 16px;
   font-family: var(--font-family1);
-  font-weight: var(--bold-font);
-  color: var(--secondary-color);
+  padding-bottom: 30px;
 }
 
 p {
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
   font-family: var(--font-family1);
   color: var(--secondary-color);
 }
@@ -153,31 +142,40 @@ main {
   width: 70%;
   height: calc(100vh - 60px);
   margin: auto;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
 }
 
 main h1 {
-  font-size: 14px;
+  font-size: 60px;
+  font-family: var(--font-family1);
+  font-weight: var(--bold-font);
+  color: var(--fourth-color);
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
-main h2 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+.hero-heading-small {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: var(--font-family2);
+  color: var(--primary-color);
 }
 
-main h3 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+.hero-heading-big {
+  font-size: 60px;
+  padding-bottom: 30px;
+  font-family: var(--font-family1);
+  font-weight: var(--bold-font);
 }
 
 main p {
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
+
 
 /* About section */
 .about {
@@ -270,8 +268,9 @@ main p {
   margin-bottom: 100px;
 }
 
-.portfolio-container h2 {
+.portfolio-container h3 {
   text-align: center;
+  font-weight: var(--bold-font);
   color: var(--fourth-color);
   font-size: 16px;
 }
@@ -342,10 +341,6 @@ main p {
   margin-bottom: 160px;
 }
 
-.contact h1 {
-  text-align: center;
-}
-
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -353,9 +348,14 @@ main p {
   justify-content: center;
 }
 
-.contact-container h2 {
-  padding-bottom: 15px;
+.contact h2 {
+  padding-bottom: 30px;
   text-align: center;
+}
+
+.contact-container h3 {
+  font-size: 60px;
+  font-weight: var(--bold-font);
 }
 
 .contact-container p {
