@@ -140,6 +140,7 @@ a:hover {
 /* Hero section */
 main {
   width: 70%;
+  max-width: 1200px;
   height: calc(100vh - 60px);
   margin: auto;
   margin-top: 30px;
@@ -177,6 +178,7 @@ main p {
 /* About section */
 .about {
   width: 70%;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -257,6 +259,7 @@ main p {
 /* Portfolio section */
 .portfolio {
   width: 70%;
+  max-width: 1200px;
   margin: auto;
   margin-bottom: 160px;
 }
@@ -334,6 +337,7 @@ main p {
 /* Contact section */
 .contact {
   width: 70%;
+  max-width: 1200px;
   margin: auto;
   margin-bottom: 160px;
 }
@@ -391,6 +395,7 @@ main p {
   text-align: center; /* Center the content inside the footer */
   color: var(--secondary-color); /* Text color for the footer */
   width: 70%;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -482,8 +487,9 @@ main p {
 
 /* MOBILE VERSION */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
 
+  /* Burger-menu and header */
   .burger-menu-btn {
     display: block;
     padding-right: 20px;
@@ -506,6 +512,30 @@ main p {
     display: none;
   }
 
+  /* General */
+  h2 {
+    font-size: 2.8rem;
+    font-family: var(--font-family2);
+    color: var(--primary-color);
+    font-weight: var(--bold-font);
+    padding-bottom: 15px;
+  }
+
+  /* Main content */
+  html {
+    font-size: 55%;
+  }
+
+  main {
+    margin-top: 60px;
+    width: 80%;
+  }
+  
+  /* About content */
+  .about {
+    width: 80%;
+  }
+
   .about-container {
     margin-bottom: 80px;
     display: flex;
@@ -514,24 +544,73 @@ main p {
     align-items: center;
     column-gap: 60px;
   }
-
+  
+  /* Portfolio content */
   .portfolio-card p {
     display: none;
   }
   
   .portfolio {
     margin-bottom: 80px;
+    width: 80%;
   }
 
   .portfolio-container {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
+  .portfolio-container h3 {
+    text-align: left;
+    font-weight: var(--bold-font);
+    color: var(--fourth-color);
+    font-size: 1.6rem;
+    margin-bottom: -15px;
+  }
+  
+  /* Contact content */
   .contact {
     margin-bottom: 80px;
+    width: 80%;
   } 
 
+  /* Footer content */
   .break-footer {
     display: none;
   }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+  /* General */
+
+  /* Main content */
+  main {
+    margin-top: 60px;
+    width: 80%;
+  }
+  
+  /* About content */
+  .about {
+    width: 80%;
+  }
+
+  .about-text {
+    flex-basis: 400px;
+  }
+
+  .about-container {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+  }
+  
+  /* Portfolio content */
+  .portfolio {
+    width: 80%;
+  }
+
+  /* Contact content */
+  .contact {
+    width: 80%;
+  } 
 }
