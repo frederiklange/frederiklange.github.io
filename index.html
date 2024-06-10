@@ -17,6 +17,28 @@
     <title>Frederik Lange | Data Scientist</title>
   </head>
   <body>
+    <!-- Burger menu -->
+    <nav class="burger-menu" id="burgerMenu">
+      <!-- Added id="burgerMenu" -->
+      <div class="close-menu-btn" id="closeMenuBtn">
+        <i class="fa fa-times"></i>
+      </div>
+      <!-- Added id="closeMenuBtn" -->
+      <ul>
+        <li><a href="#about">01. About</a></li>
+        <li><a href="#portfolio">02. Portfolio</a></li>
+        <li><a href="#contact">03. Contact</a></li>
+        <li>
+          <a
+            href="assets/files/cv_frederik_lange.pdf"
+            target="_blank"
+            class="burger-main-btn"
+            >Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+
     <!-- Header -->
     <header class="header-main">
       <div class="header-main-logo">
@@ -32,6 +54,10 @@
       <div class="header-main-btn">
         <a href="assets/files/cv_frederik_lange.pdf" target="_blank">Resume</a>
       </div>
+      <div class="burger-menu-btn" id="burgerMenuBtn">
+        <i class="fa fa-bars"></i>
+      </div>
+      <!-- Added id="burgerMenuBtn" -->
     </header>
 
     <!-- Hero Section -->
@@ -39,10 +65,11 @@
       <div>
         <p class="hero-heading-small">Hi, my name is</p>
         <h1>Frederik Lange</h1>
-        <p class="hero-heading-big">Data science student</p>
+        <h2 class="hero-heading-big">Data science student</h2>
         <p class="hero-p">
           I'm a data scientist with a background in political science. I have
-          previously worked at the Danish Ministry of Finance. <br />
+          previously worked at the Danish Ministry of Finance.
+          <br class="break-hero" />
           From September 2024, I will be pursuing my passion for data science by
           enrolling in a master’s degree program at the University of Southern
           Denmark.
@@ -169,7 +196,8 @@
     <footer class="footer">
       <p>
         The design is inspired by Brittany Chiang but build by me from scratch
-        using HTML and CSS. <br />Check out the latest version of her website
+        using HTML and CSS. <br class="break-footer" />Check out the latest
+        version of her website
         <a href="https://v4.brittanychiang.com/" target="_blank">here.</a>
       </p>
       <div class="footer-icons">
@@ -187,5 +215,27 @@
         </a>
       </div>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const burgerMenu = document.getElementById("burgerMenu");
+        const burgerMenuBtn = document.getElementById("burgerMenuBtn");
+        const closeMenuBtn = document.getElementById("closeMenuBtn");
+        const menuLinks = burgerMenu.querySelectorAll("a");
+
+        const closeMenu = () => {
+          burgerMenu.style.display = "none";
+        };
+
+        burgerMenuBtn.addEventListener("click", () => {
+          burgerMenu.style.display = "block";
+        });
+
+        closeMenuBtn.addEventListener("click", closeMenu);
+
+        menuLinks.forEach((link) => {
+          link.addEventListener("click", closeMenu);
+        });
+      });
+    </script>
   </body>
 </html>

@@ -23,6 +23,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--scroll-padding-top); /* Set the scroll padding top */
+  font-size: 62.5%;
 }
 
 body {
@@ -30,8 +31,7 @@ body {
 }
 
 h2 {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 2.8rem;
   font-family: var(--font-family2);
   color: var(--primary-color);
   font-weight: var(--bold-font);
@@ -41,22 +41,22 @@ h2 {
 h3 {
   text-align: center;
   color: var(--fourth-color);
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: var(--font-family1);
   padding-bottom: 30px;
 }
 
 p {
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 1em;
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+  line-height: 1.75;
   font-family: var(--font-family1);
   color: var(--secondary-color);
 }
 
 a {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 1.75;
   cursor: pointer;
   color: var(--primary-color);
 }
@@ -85,7 +85,7 @@ a:hover {
 
 .header-main-logo h1 a {
   line-height: 80px;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: var(--font-family2);
   font-weight: 500;
 }
@@ -106,7 +106,7 @@ a:hover {
 .header-main-nav ul a {
   padding: 0 15px;
   font-family: var(--font-family2);
-  font-size: 13px;
+  font-size: 1.4rem;
   line-height: 80px;
 }
 
@@ -123,7 +123,7 @@ a:hover {
   border: 2px solid var(--primary-color);
   border-radius: 8px;
   font-family: var(--font-family2);
-  font-size: 13px;
+  font-size: 1.4rem;
 }
 
 .header-main-btn a:hover {
@@ -149,33 +149,30 @@ main {
 }
 
 main h1 {
-  font-size: 60px;
+  font-size: 6.0rem;
   font-family: var(--font-family1);
   font-weight: var(--bold-font);
   color: var(--fourth-color);
   padding-top: 5px;
-  padding-bottom: 15px;
 }
 
 .hero-heading-small {
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1.6rem;
   font-family: var(--font-family2);
   color: var(--primary-color);
 }
 
 .hero-heading-big {
-  font-size: 60px;
-  padding-bottom: 30px;
+  font-size: 6.0rem;
   font-family: var(--font-family1);
   font-weight: var(--bold-font);
+  color: var(--secondary-color);
+  padding-bottom: 20px;
 }
 
 main p {
-  padding-top: 5px;
   padding-bottom: 5px;
 }
-
 
 /* About section */
 .about {
@@ -196,8 +193,8 @@ main p {
 }
 
 .about-skills {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1.4rem;
+  line-height: 1.75;
   margin-bottom: 1em;
   font-family: var(--font-family1);
   color: var(--secondary-color); 
@@ -214,7 +211,7 @@ main p {
 
 .about-skills li::before {
   content: "\25BA \0020";
-  font-size: 8px;
+  font-size: 0.8rem;
   color: var(--primary-color);
   position: absolute;
   left: -10px;
@@ -272,7 +269,7 @@ main p {
   text-align: center;
   font-weight: var(--bold-font);
   color: var(--fourth-color);
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .portfolio-card {
@@ -354,7 +351,7 @@ main p {
 }
 
 .contact-container h3 {
-  font-size: 60px;
+  font-size: 6.0rem;
   font-weight: var(--bold-font);
 }
 
@@ -374,7 +371,7 @@ main p {
   border: 2px solid var(--primary-color);
   border-radius: 8px;
   font-family: var(--font-family2);
-  font-size: 12px;
+  font-size: 1.4rem;
   text-align: center; /* Ensure the text inside the button is centered */
 }
 
@@ -384,7 +381,7 @@ main p {
   border-right: 4px solid var(--primary-color);
   border-radius: 8px;
   font-family: var(--font-family2);
-  font-size: 12px;
+  font-size: 1.4rem;
   transition: 0.1s;
 }
 
@@ -393,17 +390,18 @@ main p {
   padding: 20px 0; /* Padding for the footer */
   text-align: center; /* Center the content inside the footer */
   color: var(--secondary-color); /* Text color for the footer */
-  position: relative;
+  width: 70%;
+  margin: auto;
 }
 
 .footer p {
   font-family: var(--font-family2);
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .footer a {
   font-family: var(--font-family2);
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .footer-icons {
@@ -414,11 +412,126 @@ main p {
 
 .footer-icons a {
   color: var(--primary-color); /* Default color for the icons */
-  font-size: 20px;
+  font-size: 2.0rem;
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
 }
 
 .footer-icons a:hover {
   color: var(--secondary-color); /* Color for LinkedIn icon on hover */
   transform: translateY(-5px); /* Move the icon 5px upwards */
+}
+
+/* BURGER MENU */
+.burger-menu-btn {
+  display: none;
+  font-size: 2.4rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.close-menu-btn {
+  font-size: 2.4rem;
+  cursor: pointer;
+  color: var(--primary-color);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+}
+
+.burger-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  z-index: 1000;
+}
+
+.burger-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.burger-menu li {
+  margin: 20px 0;
+}
+
+.burger-menu li a {
+  font-size: 1.6rem;
+  font-family: var(--font-family2);
+}
+
+.burger-main-btn {
+  line-height: 80px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  font-family: var(--font-family2);
+  font-size: 1.4rem;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 600px) {
+
+  .burger-menu-btn {
+    display: block;
+    padding-right: 20px;
+    line-height: 80px;
+  }
+
+  .header-main-logo {
+    padding-left: 20px;
+  }
+
+  .header-main-nav {
+    display: none;
+  }
+
+  .header-main-btn {
+    display: none;
+  }
+
+  .break-hero {
+    display: none;
+  }
+
+  .about-container {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+  }
+
+  .portfolio-card p {
+    display: none;
+  }
+  
+  .portfolio {
+    margin-bottom: 80px;
+  }
+
+  .portfolio-container {
+    margin-bottom: 60px;
+  }
+
+  .contact {
+    margin-bottom: 80px;
+  } 
+
+  .break-footer {
+    display: none;
+  }
 }
