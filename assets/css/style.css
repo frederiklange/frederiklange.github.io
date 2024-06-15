@@ -201,7 +201,7 @@ main p {
   font-family: var(--font-family1);
   color: var(--secondary-color); 
   display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
+  grid-template-columns: repeat(2, minmax(140px, 240px));
   padding-left: 10px;
 }
 
